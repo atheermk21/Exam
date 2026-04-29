@@ -1,8 +1,13 @@
 import React from 'react'
+import FormContact from './components/FormContact'
+import UseForm from './hooks/UseForm'
 
 function Contact() {
   return (
-    <div>Contact</div>
+    <div>
+      <h1>contact us today</h1>
+      <FormContact/>
+    </div>
   )
 }
 
